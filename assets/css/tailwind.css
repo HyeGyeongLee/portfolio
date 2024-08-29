@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 사용하는 폰트 셋팅 */
+@font-face {
+    font-family: 'Paperlogy-1Thin';
+    src: url('~/assets/fonts/Paperlogy-1Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Paperlogy-2ExtraLight';
+    src: url('~/assets/fonts/Paperlogy-2ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'Paperlogy-3Light';
+    src: url('~/assets/fonts/Paperlogy-3Light.ttf');
+}
+
+@font-face {
+    font-family: 'Paperlogy-4Regular';
+    src: url('~/assets/fonts/Paperlogy-4Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Paperlogy-5Medium';
+    src: url('~/assets/fonts/Paperlogy-5Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Paperlogy-6SemiBold';
+    src: url('~/assets/fonts/Paperlogy-6SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Paperlogy-7Bold';
+    src: url('~/assets/fonts/Paperlogy-7Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Paperlogy-8ExtraBold';
+    src: url('~/assets/fonts/Paperlogy-8ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Paperlogy-9Black';
+    src: url('~/assets/fonts/Paperlogy-9Black.ttf');
+}
+
