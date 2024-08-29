@@ -1,18 +1,18 @@
 <template>
-    <header class="bg-white">
+    <header class="bg-black">
       <nav class="mx-auto flex items-center justify-between p-6 lg:px-12" aria-label="Global">
         <div href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
-          <a class="text-2xl font-black font-Paperlogy9Black" href="javascript:void(0)" @click="navigateTo('/')">HYEGYEONG LEE</a>
+          <a class="text-2xl font-black font-Paperlogy9Black text-white" href="javascript:void(0)" @click="navigateTo('/')">HYEGYEONG LEE</a>
         </div>
         <div class="flex lg:hidden">
-          <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = true">
+          <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white" @click="mobileMenuOpen = true">
             <span class="sr-only">Open main menu</span>
             <Bars3Icon class="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-          <a v-for="item in navigation" :key="item.name" href="javascript:void(0)" @click="navigateTo(item.href)"  class="font-Paperlogy3Light text-sm font-semibold leading-6 text-gray-900">{{ item.name }}</a>
+          <a v-for="item in navigation" :key="item.name" href="javascript:void(0)" @click="navigateTo(item.href)"  class="hover:animate-pulse font-Paperlogy3Light text-sm font-semibold leading-6 text-white">{{ item.name }}</a>
           <!-- <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a> -->
           <!-- <a href="https://www.instagram.com/bamzrara_/" target='_blank' class="text-gray-400 hover:text-gray-500">
               <span class="sr-only">LinkedIn</span>
@@ -65,3 +65,5 @@
   
   const mobileMenuOpen = ref(false)
   </script>
+<style scoped>
+</style>
