@@ -2,10 +2,21 @@
     <div>
       <div class="wrapper bg-black">
         <div class="typing-demo text-white">
-          FRONTEND DEVELOPER HYEGYEONG LEE.
+          FRONTEND DEVELOPER.
         </div>
         <div class="typing-demo-2 text-white -mt-[30rem]">
-          FRONTEND DEVELOPER HYEGYEONG LEE.
+          FRONTEND DEVELOPER.
+        </div>
+      </div>
+
+      <div class="wrapper-mo bg-black">
+        <div class="-mt-[9rem]">
+          <div class="typing-demo-mo text-white">
+            FRONTEND DEVELOPER.
+          </div>
+          <div class="typing-demo-mo text-white">
+            FRONTEND DEVELOPER.
+          </div>       
         </div>
       </div>
 
@@ -90,13 +101,34 @@ import { EllipsisVerticalIcon } from '@heroicons/vue/20/solid'
 
 .wrapper {
   height: 95vh;
-  /*This part is important for centering*/
   display: grid;
   place-items: center;
 }
 
-.typing-demo {
-  width: 33ch;
+.wrapper-mo {
+  height: 87vh;
+  /* display: grid; */
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+/* 모바일 */
+@media (max-width: 768px) {
+  .wrapper {
+    display: none !important;
+  }
+}
+
+/* 데스크탑 */
+@media (min-width: 769px) {
+  .wrapper-mo {
+    display: none !important;
+  }
+}
+
+.typing-demo, .typing-demo-2 {
+  width: 19ch;
   animation: typing 2s steps(33), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -105,26 +137,37 @@ import { EllipsisVerticalIcon } from '@heroicons/vue/20/solid'
   font-size: 3em;
 }
 
-.typing-demo-2 {
-  width: 33ch;
+.typing-demo-mo, .typing-demo-mo-2 {
+  width: 19ch;
   animation: typing 2s steps(33), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 3em;
+  font-size: 2.5em;
+}
+
+@media (max-width: 768px) {
+  .typing-demo-mo, .typing-demo-mo-2 {
+    font-size: 5vw; /* 뷰포트 너비의 5%로 설정 */
+    width: 58vw; /* 뷰포트 너비의 90%로 설정 */
+  }
 }
 
 @keyframes typing {
-  from {
-    width: 0
+  from { width: 0 }
+  to { width: 19ch }
+}
+
+@media (max-width: 768px) {
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 58vw }
   }
 }
-    
+
 @keyframes blink {
-  50% {
-    border-color: transparent
-  }
+  50% { border-color: transparent }
 }
 
 .arrow {
