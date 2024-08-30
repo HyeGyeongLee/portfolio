@@ -42,7 +42,7 @@
         </ul>
 
         <ul role="list" class="bg-white p-12 rounded-lg h-[30rem]">
-            <p class="text-2xl font-bold text-center">COMMUNYCATION</p>
+            <p class="text-xl font-bold text-center">COMMUNYCATION</p>
             <li v-for="list in communication" :key="list.name">
             <div class="flex items-center gap-x-6 mt-8">
               <img class="h-16 w-16" :src="list.imageUrl" alt="" />
