@@ -12,11 +12,12 @@ export default defineNuxtConfig({
   imports: {
     dirs: ["config"],
   },
+  ssr: false,
+  target: 'static',
   nitro: {
     preset: 'netlify'
   },
   generate: {
     fallback: true
-  },
-  ssr: false,
+  }
 })
