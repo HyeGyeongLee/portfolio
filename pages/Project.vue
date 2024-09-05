@@ -68,6 +68,19 @@
 
     },
     {
+      title: '아트폴리오',
+      date: '2023. 08 - 2023. 08',
+      href: 'https://hyegyeonglee-art-profile.netlify.app/',
+      icon: CheckBadgeIcon,
+      iconForeground: 'text-purple-700',
+      iconBackground: 'bg-purple-50',
+      teamName:'이혜경',
+      detail:'그동안 그려왔던 디지털 그림을 위한 웹사이트',
+      Notionhref:'https://hyegyeonglee-art-profile.netlify.app/',
+      img: '/artporio.png',
+
+    },
+    {
       title: '아이스브레이킹',
       date: '2023. 04 - 2023. 04',
       href: 'https://bamzrara.notion.site/f5fefc1daed84149a1277960aede5546',
