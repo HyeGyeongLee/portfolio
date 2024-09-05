@@ -11,7 +11,7 @@
               </span>
             </div>
             <div class="sm:flex">
-            <div class="w-[30%] mt-12">
+            <div class="sm:w-[30%] mt-12">
               <img :src="action.img"/>
             </div>
             <div class="mt-8 sm:ml-12 pb-12">
