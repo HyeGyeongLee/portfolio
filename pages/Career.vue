@@ -20,6 +20,7 @@
                   </a>
                   <p v-if="actionIdx == 0">진행중</p>
                 </h3>
+                {{ action.date }}
                 <p class="mt-2 text-sm text-gray-500">company : {{ action.company }}</p>
                 <p class="mt-2 text-sm text-gray-500">company : {{ action.detail }}</p>
               </div>
@@ -47,6 +48,7 @@
   const actions = [
     {
       title: '경찰청 프로젝트',
+      date: '2024. 08 ~ ',
       href: '#',
       icon: ClockIcon,
       iconForeground: 'text-teal-700',
@@ -56,6 +58,7 @@
     },
     {
       title: '두비덥 웹툰 프로젝트',
+      date: '2024. 04 - 2024. 07',
       href: 'https://bamzrara.notion.site/f5fefc1daed84149a1277960aede5546',
       icon: CheckBadgeIcon,
       iconForeground: 'text-purple-700',
@@ -66,6 +69,7 @@
     },
     {
       title: 'kt 형상관리 업무',
+      date: '2024. 03 - 2024. 04',
       href: '#',
       icon: UsersIcon,
       iconForeground: 'text-sky-700',
@@ -75,6 +79,7 @@
     },
     {
       title: 'skt 앱 기능 추가',
+      date: '2023. 09 - 2023. 12',
       href: 'https://bamzrara.notion.site/skt-pass-464d5df9350c410b85f6e3e43ee99711?pvs=4',
       icon: BanknotesIcon,
       iconForeground: 'text-yellow-700',
@@ -84,6 +89,7 @@
     },
     {
       title: '인스폰드',
+      date: '2022. 02 - 2023. 02',
       href: 'https://bamzrara.notion.site/fafd74bc377a4f3eaa22eb0a9b0048b3?pvs=4',
       icon: ReceiptRefundIcon,
       iconForeground: 'text-rose-700',
@@ -94,6 +100,7 @@
     },
     {
       title: 'tmap 운영',
+      date: '2021. 06 - 2021. 11',
       href: 'https://bamzrara.notion.site/fafd74bc377a4f3eaa22eb0a9b0048b3?pvs=4',
       icon: AcademicCapIcon,
       iconForeground: 'text-indigo-700',
@@ -104,6 +111,7 @@
     },
     {
       title: '엠에이치 건설',
+      date: '2020. 01 - 2020. 03',
       href: '#',
       icon: AcademicCapIcon,
       iconForeground: 'text-indigo-700',
