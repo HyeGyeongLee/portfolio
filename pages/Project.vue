@@ -14,21 +14,21 @@
             <div class="w-[30%] mt-12">
               <img :src="action.img"/>
             </div>
-            <div class="mt-8 sm:ml-12">
+            <div class="mt-8 sm:ml-12 pb-12">
               <h3 class="text-base font-semibold leading-6 text-gray-900">
                   <!-- Extend touch target to entire panel -->
                   <span class="absolute" aria-hidden="true" />
                   {{ action.title }}
               </h3>
-              <p class="mt-2 text-sm text-gray-500">teamName : {{ action.teamName }}</p>
-                <p class="mt-2 text-sm text-gray-500">{{ action.detail }}</p>
+              <p class="mt-2 text-lg text-gray-500">teamName : {{ action.teamName }}</p>
+                <p class="mt-2 text-lg text-gray-500">{{ action.detail }}</p>
 
                 <a target='_blank' :href="action.href">
-                  <p class="mt-12 text-sm text-gray-500">링크 : {{ action.href }}</p>
+                  <p class="mt-12 text-lg text-gray-500">링크 : {{ action.href }}</p>
                 </a>
 
                 <a target='_blank' :href="action.Notionhref">
-                  <p class="mt-12 text-sm text-gray-500">노션 설명 링크 : {{ action.Notionhref }}</p>
+                  <p class="mt-12 text-lg text-gray-500">노션 설명 링크 : {{ action.Notionhref }}</p>
                 </a>
               </div>
               <span class="pointer-events-none absolute right-6 top-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
