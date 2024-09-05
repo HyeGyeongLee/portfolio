@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-orange-500 py-24 sm:py-32 px-20">
+    <div class="bg-orange-500 py-24 sm:py-32 sm:px-20 px-2">
         <div class="text-center mb-20">
           <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Career</h2>
           <p class="mt-6 text-lg leading-8 text-gray-600"></p>
