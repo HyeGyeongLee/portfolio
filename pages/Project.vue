@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-green-500 py-24 sm:py-32 px-20">
+    <div class="bg-green-500 py-24 sm:py-32 sm:px-20 px-2">
         <div class="mb-20">
           <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl text-center">Project</h2>
           <p class="mt-6 text-lg leading-8 text-gray-600"></p>
@@ -10,11 +10,11 @@
                 <div>{{ actionIdx + 1 }}</div>
               </span>
             </div>
-            <div class="flex">
-            <div>
-              <img :src="action.img" class="w-[30rem] mt-12"/>
+            <div class="sm:flex">
+            <div class="w-[30%] mt-12">
+              <img :src="action.img"/>
             </div>
-            <div class="mt-8 ml-12">
+            <div class="mt-8 sm:ml-12">
               <h3 class="text-base font-semibold leading-6 text-gray-900">
                   <!-- Extend touch target to entire panel -->
                   <span class="absolute" aria-hidden="true" />
