@@ -14,5 +14,8 @@ export default defineNuxtConfig({
   },
   nitro: {
     preset: 'netlify'
+  },
+  generate: {
+    fallback: true
   }
 })
