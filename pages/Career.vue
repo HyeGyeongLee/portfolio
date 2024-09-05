@@ -22,7 +22,7 @@
                 </h3>
                 {{ action.date }}
                 <p class="mt-2 text-sm text-gray-500">company : {{ action.company }}</p>
-                <p class="mt-2 text-sm text-gray-500">company : {{ action.detail }}</p>
+                <p class="mt-2 text-sm text-gray-500">{{ action.detail }}</p>
               </div>
               <span class="pointer-events-none absolute right-6 top-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
                 <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
