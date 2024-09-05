@@ -1,21 +1,21 @@
 export default {
-  "_BoEc_86N.js": {
+  "_BOnOhO1W.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BoEc_86N.js",
+    "file": "BOnOhO1W.js",
     "name": "ClockIcon",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_CmHLmKl7.js": {
+  "_CNUkhgXu.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CmHLmKl7.js",
+    "file": "CNUkhgXu.js",
     "name": "vue.65b7bcda",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
@@ -80,7 +80,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "zP8nf8O0.js",
+    "file": "BYFBPWRX.js",
     "name": "default",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
@@ -93,17 +93,15 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CIyu55YD.js",
+    "file": "CSjGL-KY.js",
     "name": "error-404",
     "src": "node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_CmHLmKl7.js"
+      "_CNUkhgXu.js"
     ],
-    "css": [
-      "error-404.DXySnQZL.css"
-    ]
+    "css": []
   },
   "error-404.DXySnQZL.css": {
     "file": "error-404.DXySnQZL.css",
@@ -116,17 +114,15 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BCdaJHrc.js",
+    "file": "DAasRZ5p.js",
     "name": "error-500",
     "src": "node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CmHLmKl7.js",
+      "_CNUkhgXu.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
-    "css": [
-      "error-500.CIkJDsQj.css"
-    ]
+    "css": []
   },
   "error-500.CIkJDsQj.css": {
     "file": "error-500.CIkJDsQj.css",
@@ -139,7 +135,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CGzh7dMq.js",
+    "file": "x_1N3NI4.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -148,78 +144,14 @@ export default {
       "node_modules/nuxt/dist/app/components/error-404.vue",
       "node_modules/nuxt/dist/app/components/error-500.vue"
     ],
-    "css": [
-      "entry.CiPaCOxo.css"
-    ],
-    "assets": [
-      "Paperlogy-1Thin.Bt5E9V_I.ttf",
-      "Paperlogy-2ExtraLight.DvBcbnfM.ttf",
-      "Paperlogy-3Light.CRlTOtVC.ttf",
-      "Paperlogy-4Regular.Bxwq9xuH.ttf",
-      "Paperlogy-5Medium.D0pf9AtY.ttf",
-      "Paperlogy-6SemiBold.Bgpe6yyI.ttf",
-      "Paperlogy-7Bold.C_MikIAt.ttf",
-      "Paperlogy-8ExtraBold.DQM-XU9W.ttf",
-      "Paperlogy-9Black.Bx4GWEsG.ttf"
-    ]
-  },
-  "entry.CiPaCOxo.css": {
-    "file": "entry.CiPaCOxo.css",
-    "resourceType": "style",
-    "prefetch": true,
-    "preload": true
-  },
-  "Paperlogy-1Thin.Bt5E9V_I.ttf": {
-    "file": "Paperlogy-1Thin.Bt5E9V_I.ttf",
-    "resourceType": "font",
-    "mimeType": "font/ttf"
-  },
-  "Paperlogy-2ExtraLight.DvBcbnfM.ttf": {
-    "file": "Paperlogy-2ExtraLight.DvBcbnfM.ttf",
-    "resourceType": "font",
-    "mimeType": "font/ttf"
-  },
-  "Paperlogy-3Light.CRlTOtVC.ttf": {
-    "file": "Paperlogy-3Light.CRlTOtVC.ttf",
-    "resourceType": "font",
-    "mimeType": "font/ttf"
-  },
-  "Paperlogy-4Regular.Bxwq9xuH.ttf": {
-    "file": "Paperlogy-4Regular.Bxwq9xuH.ttf",
-    "resourceType": "font",
-    "mimeType": "font/ttf"
-  },
-  "Paperlogy-5Medium.D0pf9AtY.ttf": {
-    "file": "Paperlogy-5Medium.D0pf9AtY.ttf",
-    "resourceType": "font",
-    "mimeType": "font/ttf"
-  },
-  "Paperlogy-6SemiBold.Bgpe6yyI.ttf": {
-    "file": "Paperlogy-6SemiBold.Bgpe6yyI.ttf",
-    "resourceType": "font",
-    "mimeType": "font/ttf"
-  },
-  "Paperlogy-7Bold.C_MikIAt.ttf": {
-    "file": "Paperlogy-7Bold.C_MikIAt.ttf",
-    "resourceType": "font",
-    "mimeType": "font/ttf"
-  },
-  "Paperlogy-8ExtraBold.DQM-XU9W.ttf": {
-    "file": "Paperlogy-8ExtraBold.DQM-XU9W.ttf",
-    "resourceType": "font",
-    "mimeType": "font/ttf"
-  },
-  "Paperlogy-9Black.Bx4GWEsG.ttf": {
-    "file": "Paperlogy-9Black.Bx4GWEsG.ttf",
-    "resourceType": "font",
-    "mimeType": "font/ttf"
+    "_globalCSS": true
   },
   "pages/Archiving.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Cgnu4AnI.js",
+    "file": "CTsWZ-w7.js",
     "name": "Archiving",
     "src": "pages/Archiving.vue",
     "isDynamicEntry": true,
@@ -232,13 +164,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Chlpx1hy.js",
+    "file": "D_ZkfqDZ.js",
     "name": "Career",
     "src": "pages/Career.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_BoEc_86N.js"
+      "_BOnOhO1W.js"
     ]
   },
   "pages/Project.vue": {
@@ -246,12 +178,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BAzlgSCr.js",
+    "file": "DR3_hQDl.js",
     "name": "Project",
     "src": "pages/Project.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BoEc_86N.js",
+      "_BOnOhO1W.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -260,7 +192,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "dHipO0-H.js",
+    "file": "D5fTWazA.js",
     "name": "Skills",
     "src": "pages/Skills.vue",
     "isDynamicEntry": true,
@@ -273,16 +205,14 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "iXxmzi8i.js",
+    "file": "CjcvLJsH.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
-    "css": [
-      "index.B8vVWS4O.css"
-    ]
+    "css": []
   },
   "index.B8vVWS4O.css": {
     "file": "index.B8vVWS4O.css",
